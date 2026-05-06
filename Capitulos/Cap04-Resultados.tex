@@ -1,0 +1,41 @@
+\chapter{Resultados} \label{cap:05}
+
+% Caso sejam somente resultados parciais, o nome do capítulo deve ser "Resultados Preliminares".
+% Para a versão final, o nome do capítulo deve ser "Resultados e Discussão".
+
+Nesta seção são apresentados os resultados obtidos durante o desenvolvimento da pesquisa. Os resultados podem incluir diferentes tipos de artefatos, tais como textos produzidos, diagramas, documentação de sistemas, interfaces desenvolvidas, além de análises provenientes dos dados coletados.
+
+Ressalta-se que tanto resultados positivos quanto negativos devem ser apresentados, uma vez que contribuem para a construção do conhecimento científico e auxiliam futuros pesquisadores na compreensão das abordagens adotadas.
+
+Dentre os resultados obtidos, destacam-se a implementação de funcionalidades do sistema e a validação de conceitos por meio de protótipos e testes.
+
+\section{Exemplo de Implementação em JavaScript}
+
+O trecho de código a seguir apresenta uma função responsável por consumir uma API e exibir os dados no console.
+
+\begin{lstlisting}[caption={Requisição a uma API utilizando JavaScript}]
+async function buscarProdutos() {
+  try {
+    // Faz requisicao para a API
+    const resposta = await fetch('https://api.exemplo.com/produtos');
+    
+    // Converte resposta para JSON
+    const dados = await resposta.json();
+
+    // Percorre os produtos retornados
+    dados.forEach(produto => {
+      console.log(`Produto: ${produto.nome} - Preco: R$ ${produto.preco}`);
+    });
+
+  } catch (erro) {
+    console.error('Erro ao buscar produtos:', erro);
+  }
+}
+
+// Executa a funcao
+buscarProdutos();
+\end{lstlisting}
+
+O código apresentado demonstra a utilização de programação assíncrona com \textit{async/await}, permitindo a comunicação com serviços externos por meio de APIs. Esse tipo de implementação foi fundamental para a integração entre o sistema desenvolvido e as fontes de dados utilizadas no projeto.
+
+Além disso, outros resultados incluem a criação de interfaces, testes realizados e validação das funcionalidades propostas, os quais podem ser apresentados por meio de figuras, tabelas e gráficos ao longo desta seção.

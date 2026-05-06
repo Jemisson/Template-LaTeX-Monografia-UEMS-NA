@@ -1,0 +1,18 @@
+\providecommand{\abntreprintinfo}[1]{%
+ \citeonline{#1}}
+\setlength{\labelsep}{0pt}\begin{thebibliography}{}
+\providecommand{\abntrefinfo}[3]{}
+\providecommand{\abntbstabout}[1]{}
+\abntbstabout{v-1.9.7 }
+
+\bibitem[Bastos et al. 2007]{bastos:2007:base}
+\abntrefinfo{Bastos et al.}{BASTOS et al.}{2007}
+{BASTOS, A. et al. Base de conhecimento em teste de software.
+\textbf{S{\~a}o Paulo}, 2007.}
+
+\bibitem[Greenwade 1993]{greenwade:93}
+\abntrefinfo{Greenwade}{GREENWADE}{1993}
+{GREENWADE, G.~D. The {C}omprehensive {T}ex {A}rchive {N}etwork ({CTAN}).
+\textbf{TUGBoat}, v.~14, n.~3, p. 342--351, 1993.}
+
+\end{thebibliography}
