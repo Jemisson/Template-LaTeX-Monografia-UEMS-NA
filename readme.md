@@ -134,3 +134,7 @@ Evite renomear arquivos já chamados no arquivo principal sem atualizar também 
 - Os capítulos incluem informações de escrita e exemplos de estrutura textual para orientar a produção da monografia.
 - A ficha catalográfica e a folha de aprovação normalmente são inseridas apenas na versão final, após a defesa.
 - Caso utilize o cronograma, verifique o nome do arquivo existente em `Capitulos/` e a chamada correspondente em `Monografia_config.tex`.
+
+<p align="center">
+  Feito com <span style="color:#0057B8;">&#10084;</span> por Prof. Me. Jemison Santos para uso nas disciplinas de estágio obrigatório.
+</p>
