@@ -136,5 +136,5 @@ Evite renomear arquivos já chamados no arquivo principal sem atualizar também 
 - Caso utilize o cronograma, verifique o nome do arquivo existente em `Capitulos/` e a chamada correspondente em `Monografia_config.tex`.
 
 <p align="center">
-  Feito com <span style="color:#0057B8;">&#10084;</span> por Prof. Me. Jemison Santos para uso nas disciplinas de estágio obrigatório.
+  Feito com ❤️ por Prof. Me. Jemison Santos para uso nas disciplinas de estágio obrigatório.
 </p>
